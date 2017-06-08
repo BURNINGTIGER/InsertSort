@@ -5,9 +5,9 @@ SCENARIO("sort","[sort]")
 {
  	int array[6] = { 2 , 1, 6, 3, 7, 4 };
 	int sortedArray[6] =  { 1, 2, 3, 4, 6, 7 };
-	int* first = &matrix[0];
-	int* last = &matrix[6];
-	InsertSort(first, last);
+	int* f = &matrix[0];
+	int* l = &matrix[6];
+	InsertSort(f, l);
 	bool result = true;
 	for (int i = 0; i < 6; i++)
 	if (array[i] != sortedArray[i])
