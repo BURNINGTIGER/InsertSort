@@ -6,7 +6,7 @@
 using namespace std;
 
 template <typename Iterator>
-void insertion_sort(Iterator f, Iterator l)
+void InsertSort(Iterator f, Iterator l)
 {
 	if (f > l)
 		return;
